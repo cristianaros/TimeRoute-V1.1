@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Route</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Time Route</h1>
+    </header>
+    <div class="content">
+        <div id="map-container">
+            <iframe id="map-frame" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="routes">
+            <h2>Principales Rutas de Micros:</h2>
+            <ul>
+                <li onclick="highlightRoute(602)">Línea 602</li>
+                <li onclick="highlightRoute(603)">Línea 603</li>
+                <li onclick="highlightRoute(606)">Línea 606</li>
+                <li onclick="highlightRoute(605)">Línea 605</li>
+                <li onclick="highlightRoute(505)">Línea 505</li>
+                <li onclick="highlightRoute(510)">Línea 510</li>
+                <li onclick="highlightRoute(518)">Línea 518</li>
+                <li onclick="highlightRoute(501)">Línea 501</li>
+                <li onclick="highlightRoute(703)">Línea 703</li>
+                <li onclick="highlightRoute(522)">Línea 522</li>
+                <li onclick="highlightRoute(109)">Línea 109</li>
+            </ul>
+        </div>
+        <div id="info-container"></div>
+    </div>
+
+    <!-- Slider de Bootstrap -->
+    <div class="card-group" style="margin: 10rem;">
+        <div class="card">
+            <img class="card-img-top" src="imagen1.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Universidad de Playa Ancha</h5>
+                <p class="card-text">a Universidad de Playa Ancha es una institución pública chilena con sede en
+                    Valparaíso. Ofrece una amplia variedad de programas de pregrado y postgrado en diferentes áreas del
+                    conocimiento.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="imagen2.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Tarjeta Nacional Estudiantil (TNE)</h5>
+                <p class="card-text">a Tarjeta Nacional Estudiantil (TNE) permite a los estudiantes chilenos acceder a
+                    tarifas preferenciales en el transporte público. Es una herramienta esencial para la movilidad
+                    estudiantil.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="imagen3.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Google Ads</h5>
+                <p class="card-text">Google Ads es una plataforma de publicidad en línea desarrollada por Google, donde
+                    los anunciantes pagan para mostrar anuncios breves, ofertas de servicios, listas de productos y
+                    contenido de vídeo a los usuarios web.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="payment">
+        <h2>Pago</h2>
+        <a href="https://botonpago.efe.cl/" target="_blank">
+            <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Pagar con PayPal">
+        </a>
+    </div>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Contacto</h3>
+            <p>Email: lossaramambiche1234@gmail.com</p>
+            <p>Teléfono: +56 9 7880 5069</p>
+            <p>Dirección: Calle del agua 1155, Recreo, Chile</p>
+        </div>
+        <div class="footer-section">
+            <h3>Enlaces útiles</h3>
+            <ul>
+                <li><a
+                        href="https://www.google.com/maps/place/Valpara%C3%ADso/@-33.0501217,-71.652248,13z/data=!3m1!4b1!4m6!3m5!1s0x9689dde3de20cec7:0xeb0a3a8cbfe19b76!8m2!3d-33.047238!4d-71.6126885!16zL20vMGo4bG4?entry=ttu">Mapa
+                        de Valparaiso</a></li>
+                <li><a href="politica.html">Política de privacidad</a></li>
+                <li><a href="terminos.html">Términos de uso</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Time Route. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</html>
